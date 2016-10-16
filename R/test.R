@@ -1,6 +1,13 @@
+rm(list=ls(all.names=TRUE))
 library(httr)
 library(XML)
 library(RCurl)
+
+
+#urlPath = "https://www.ptt.cc/bbs/movie/index.html"
+#temp = getURL(urlPath, encoding = "big5")
+#xmldoc = htmlParse(temp)
+#title = xpathSApply(xmldoc, "//div[@class=\"title\"]", xmlValue)
 
 # get download page url path
 subpathURL = "https://www.ptt.cc/bbs/movie/index"
